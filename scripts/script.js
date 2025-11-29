@@ -1,4 +1,4 @@
-function nav_bar_toggle(event) {
+function navBarToggle(event) {
     let nav = document.getElementById("nav");
     //nav.classList.toggle("hidden");
 
@@ -8,4 +8,4 @@ function nav_bar_toggle(event) {
 }
 
 let menuBtn = document.getElementById("menuBtn");
-menuBtn.addEventListener("click", nav_bar_toggle);
+menuBtn.addEventListener("click", navBarToggle);
