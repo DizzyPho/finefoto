@@ -2,3 +2,13 @@
     background-image: url("../images/page/gravel.png");
     background-repeat: repeat;
 }
+
+.nav-item {
+    padding: 1em 3em;
+    font-weight: 600;
+    border-bottom: 1px rgb(186, 186, 186) dotted;
+    
+}
+.nav-item:hover {
+    background-color: rgba(186, 186, 186, 0.5);
+}
