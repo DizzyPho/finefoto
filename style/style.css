@@ -2,6 +2,10 @@
     background-image: url("../images/ui/gravel.png");
     background-repeat: repeat;
 }
+.textured-dark {
+    background-image: url("../images/ui/gravel-dark.png");
+    background-repeat: repeat;
+}
 
 .nav-link:hover {
     background-color: rgba(186, 186, 186, 0.5);
