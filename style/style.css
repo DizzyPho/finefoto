@@ -22,3 +22,22 @@
 .h-56-25 {
     max-height: 228rem;
 }
+
+
+.footer-title {
+    font-weight: bold;
+    color: rgb(92, 96, 100);
+    margin-bottom: 1em;
+}
+.footer-list {
+    display:flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.footer-list li {
+    font-weight: 300;
+}
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
