@@ -48,3 +48,10 @@
         rgba(12, 12, 12) 98%
     ), url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg")
 }
+
+.polaroid {
+    background-color: white;
+    border: outset white;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px;
+}
