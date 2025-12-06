@@ -8,21 +8,7 @@
     <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="fixed flex items-center w-full z-50 shadow-md py-4 px-4 textured justify-between h-14">
-        <button id="menuBtn"><img src="images/ui/menu.png" alt="Menu icon"></button>
-        <a>fine.foto</a>
-        <a href="https://www.instagram.com/fine.foto_byfien/" target="_blank"><img src="images/ui/instagram.png" alt="Instagram icon"></a>
-    </header>
-    <nav class="fixed z-40 lg:w-72 lg:h-full h-56-25 w-full textured opacity-90 shadow-md mt-14 
-    lg:-translate-x-full -translate-y-full lg:translate-y-0 transition-all duration-300" id="nav">
-        <ul class="flex flex-col w-full">
-            <li><a class="nav-link" href="/index.html">Home</a></li>
-            <li><a class="nav-link" href="/pages/over.html">Over de fotograaf</a></li>
-            <li><a class="nav-link" href="/pages/galerij.html">Galerij</a></li>
-            <li><a class="nav-link" href="#">Placeholder</a></li>
-            <li><a class="nav-link" href="/pages/contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <script src="/scripts/header_nav.js"></script>
     <section class="h-screen flex justify-center items-end" id="hero-image">
         <h2 class="lg:text-3xl text-2xl text-gray-300 relative z-40 font-light m-12">Zie meer 🞃</h2>
     </section>
@@ -32,25 +18,7 @@
         <div class="polaroid h-72 w-60 flex"></div>
         <div class="polaroid h-72 w-60 flex"></div>
     </section>
-    <footer class="textured-dark w-full text-gray-400 p-4 lg:px-16 px-8 py-8 text-sm">
-        <div class="flex md:flex-row flex-col md:gap-16 gap-8">
-            <ul class="footer-list">
-                <h3 class="footer-title">PAGINA'S</h3>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/over.html">Over de fotograaf</a></li>
-                <li><a href="/pages/galerij.html">Galerij</a></li>
-                <li><a href="#">Placeholder</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
-            </ul>
-            <ul class="footer-list">
-                <h3 class="footer-title">CREDITS</h3>
-                <li>Website door Hannah DK</li>
-                <li><a href="https://icons8.com/" target="_blank">Iconen door Icons8</a></li>
-                <li><a href="https://tailwindcss.com" target="_blank">CSS met Tailwind</a></li>
-            </ul>
-        </div>
-        <h6 class="block opacity-50 text-xs mt-8">This work is licensed under <a class="underline" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></h6>
-    </footer>
+    <script src="/scripts/footer.js"></script>
     <script src="/scripts/script.js"></script>
 </body>
 </html>
