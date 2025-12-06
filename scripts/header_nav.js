@@ -8,10 +8,10 @@ template.innerHTML += `<header class="fixed flex items-center w-full z-50 shadow
     lg:-translate-x-full -translate-y-full lg:translate-y-0 transition-all duration-300" id="nav">
         <ul class="flex flex-col w-full">
             <li><a class="nav-link" href="/index.html">Home</a></li>
-            <li><a class="nav-link" href="/pages/">Over de fotograaf</a></li>
+            <li><a class="nav-link" href="/pages/over.html">Over de fotograaf</a></li>
             <li><a class="nav-link" href="/pages/galerij.html">Galerij</a></li>
             <li><a class="nav-link" href="#">Placeholder</a></li>
-            <li><a class="nav-link" href="/pages/">Contact</a></li>
+            <li><a class="nav-link" href="/pages/contact.html">Contact</a></li>
         </ul>
     </nav>`;
 
