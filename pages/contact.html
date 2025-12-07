@@ -9,6 +9,33 @@
 </head>
 <body>
     <script src="/scripts/header_nav.js"></script>
+    <section class="h-fit flex justify-center items-center" id="hero-image">
+        <form class="textured p-14 pt-8 my-36 rounded flex flex-col form text-sm items-stretch lg:w-1/4 w-2/3 gap-6">
+            <h1 class="text-center font-bold m-0 text-2xl">Contact</h1>
+            <section class="">
+                <label for="name">NAAM</label><br>
+                <input type="text" name="name" id="name" placeholder="Naam" required class="textured"><br>
+            </section>
+            <section>
+                <label for="email">E-MAIL</label><br>
+                <input type="email" name="email" id="email" placeholder="naam@email.com" required><br>
+            </section>
+            <section>
+                <label for="phone">TELEFOONNUMMER</label><br>
+                <input type="text" name="phone" id="phone" placeholder="+32 000 0000 00"><br>
+            </section>
+            <section>
+                <label for="reason">ONDERWERP</label><br>
+                <input type="text" name="reason" id="reason" placeholder="Onderwerp hier" required><br>
+            </section>
+            <section>
+                <label for="bericht">BERICHT</label><br>
+                <textarea name="bericht" id="bericht" placeholder="Jouw bericht hier" required size="100"></textarea><br>
+            </section>
+            <button type="submit" class="bg-neutral-800 text-gray-300 p-2 rounded self-center block py-3 px-4 
+            hover:bg-neutral-600">Verzenden</button>
+        </form>
+    </section>
     <script src="/scripts/footer.js"></script>
     <script src="/scripts/script.js"></script>
 </body>
