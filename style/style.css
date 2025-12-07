@@ -63,7 +63,7 @@
     margin: 0.5em 0;
     width: 100%;
     padding: 4px 8px;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../images/ui/gravel.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/ui/gravel.png");
     background-repeat: repeat;
 }
 .form input:focus,form textarea:focus {
