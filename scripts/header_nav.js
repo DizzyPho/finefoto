@@ -4,7 +4,8 @@ template.innerHTML += `<header class="fixed flex items-center w-full z-50 shadow
         <a>fine.foto</a>
         <a href="https://www.instagram.com/fine.foto_byfien/" target="_blank"><img src="/images/ui/instagram.png" alt="Instagram icon"></a>
     </header>
-    <nav class="fixed z-40 lg:w-72 lg:h-full h-56-25 w-full textured opacity-90 shadow-md mt-14 
+    <div class="h-14"></div>
+    <nav class="fixed z-40 lg:w-72 lg:h-full h-56-25 w-full textured opacity-90 shadow-md 
     lg:-translate-x-full -translate-y-full lg:translate-y-0 transition-all duration-300" id="nav">
         <ul class="flex flex-col w-full">
             <li><a class="nav-link" href="/index.html">Home</a></li>
