@@ -79,3 +79,10 @@ html {
 .form label {
     color:darkslategray
 }
+
+
+.gallery-img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid
+}
