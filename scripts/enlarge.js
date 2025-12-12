@@ -10,11 +10,13 @@ function closeOverlay(event) {
 }
 function openOverlay(event) {
     const overlay = document.createElement("div");
-    overlay.id = "overlay";
+    overlay.id = "overlay"
+    overlay.addEventListener("click",closeOverlay);
+
     const x = document.createElement("button");
     x.id = "x";
     x.innerHTML=`<img src="/images/ui/x.png" alt="x">`
-    x.addEventListener("click", closeOverlay)
+
     overlay.appendChild(x);
     document.body.appendChild(overlay)
 }
