@@ -107,3 +107,8 @@
     margin-top: 5rem;
     margin-right: 2rem;
 }
+
+.text-card h2 {
+    font-weight: 700;
+    font-size: large;
+}
