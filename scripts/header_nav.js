@@ -10,7 +10,7 @@ template.innerHTML += `<header class="fixed flex items-center w-full z-50 shadow
             <li><a class="nav-link" href="/index.html">Home</a></li>
             <li><a class="nav-link" href="/pages/over.html">Over de fotograaf</a></li>
             <li><a class="nav-link" href="/pages/galerij.html">Galerij</a></li>
-            <li><a class="nav-link" href="#">Placeholder</a></li>
+            <li><a class="nav-link" href="/pages/tarieven.html">Tarieven</a></li>
             <li><a class="nav-link" href="/pages/contact.html">Contact</a></li>
         </ul>
     </nav>`;
