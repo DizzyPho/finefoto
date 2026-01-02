@@ -13,9 +13,18 @@
 <body class="bg-gray-100 font-body">
     <script src="/scripts/header_nav.js"></script>
     <h1 class="pt-28 pb-16 text-center text-5xl font-bold">Galerij</h1>
+    <div class="flex justify-center mb-8">
+        <select name="gallery-filter" id="gallery-filter" class="p-2 rounded shadow textured border-black border-2 border-opacity-15 w-72">
+            <option value="none">Geen filter</option>
+            <option value="architectuur">Architectuur</option>
+            <option value="food">Eten & Drinken</option>
+            <option value="huwelijk">Huwelijk</option>
+            <option value="portret">Portret</option>
+            <option value="zwangerschap">Zwangerschap</option>
+        </select>
+    </div>
     <section class="columns-1 md:columns-2 lg:columns-3 mb-16
     justify-items-center gap-10 w-max m-auto" id="gallery">
-
     </section>
 
     <script src="/scripts/gallery.js"></script>

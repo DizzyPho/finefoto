@@ -35,8 +35,8 @@ function getAllImages() {
     return images;
 }
 
-function fillGallery() {
-    const images = getAllImages();
+function fillGallery(images) {
+    
     const gallery = document.getElementById("gallery");
 
     for (const img of images) {    
@@ -44,4 +44,10 @@ function fillGallery() {
     }
 }
 
-fillGallery();
+function fillGalleryWithCategory(category) {
+    images = getImagesPerCategory(category)
+    fillGallery(images);
+}
+
+const images = getAllImages();
+fillGallery(images);
