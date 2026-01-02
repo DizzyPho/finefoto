@@ -6,7 +6,7 @@ footerTemplate.innerHTML += `<footer class="textured-dark w-full text-gray-400 p
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/pages/over.html">Over de fotograaf</a></li>
                 <li><a href="/pages/galerij.html">Galerij</a></li>
-                <li><a href="#">Placeholder</a></li>
+                <li><a href="/pages/tarieven.html">Tarieven</a></li>
                 <li><a href="/pages/contact.html">Contact</a></li>
             </ul>
             <ul class="footer-list">
