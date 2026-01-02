@@ -78,8 +78,14 @@ function openOverlay(event) {
     x.id = "x";
     x.innerHTML=`<img src="/images/ui/x.png" alt="x">`
 
+    const enlargedImg = document.createElement("img")
+    enlargedImg.style = "max-height:70vh;"
+    enlargedImg.src = event.target.src
+    
     overlay.appendChild(x);
+    overlay.appendChild(enlargedImg);
     document.body.appendChild(overlay)
+
 }
 
 const images = getAllImages();
