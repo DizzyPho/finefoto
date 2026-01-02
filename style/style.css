@@ -57,7 +57,11 @@
     border: outset white;
     border-radius: 3px;
     box-shadow: 0 4px 6px;
+    padding:16px;
+    margin-top: 16px;
+
 }
+
 
 
 .form input,form textarea {
