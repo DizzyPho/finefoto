@@ -44,10 +44,21 @@ function fillGallery(images) {
     }
 }
 
-function fillGalleryWithCategory(category) {
-    images = getImagesPerCategory(category)
-    fillGallery(images);
+function applyFilter(event) {
+    const value = event.target.value
+    const gallery = document.getElementById("gallery")
+    gallery.innerHTML = "";
+    let images;
+    if(value == "none") {
+        images = getAllImages()
+    } else {
+        images = getImagesPerCategory(value)
+    }
+    fillGallery(images)
 }
 
 const images = getAllImages();
 fillGallery(images);
+
+const selection = document.getElementById("gallery-filter")
+selection.addEventListener("change", applyFilter)
